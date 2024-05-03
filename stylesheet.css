@@ -1,0 +1,100 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#headAndNav{
+    height: 220px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: rgb(235, 126, 3);
+    font-family: "Concert One", sans-serif;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.navButtons{
+    margin-inline-start: 10px;
+    background-color: rgb(235, 126, 3);
+    color: black;
+    border-radius: 8px;
+    width: 92px;
+    height: 28px;
+}
+
+#nav1{
+    position: relative;
+    top:0px;
+    left:0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav2{
+    position: relative;
+    top:0px;
+    left:0px;
+    padding: 10px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+#nav3{
+    position: relative;
+    top:0px;
+    left:0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#nav4{
+    position: relative;
+    top:0px;
+    left:0px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+@keyframes snake{
+    0% {top: 0px; left: 0px;}
+    10% {top: 100px; left: 0px;}
+    25% {top: 100px; left: -500px;}
+    35% {top: 0px; left: -500px;}
+    50% {top: 0px; left: 0px;}
+    60% {top: 100px; left: 0px;}
+    75% {top: 100px; left: 500px;}
+    85% {top: 0px; left: 500px;}
+    100% {top: 0px; left: 0px;}
+    
+}
+
+#navBar{
+    top: 0px;
+    left: 0px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    font-size: medium;
+    text-align: center;
+    font-family: "Concert One", sans-serif;
+    animation-name: snake;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+}
+
+#missCounter{
+    display: flex;
+    color: rgb(235, 126, 3);
+    font-family: "Concert One", sans-serif;
+    font-size: 45px;
+    justify-content: center;
+}
