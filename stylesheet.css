@@ -98,3 +98,66 @@ h1{
     font-size: 45px;
     justify-content: center;
 }
+
+#bioBody{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#face{
+    
+    border-radius: 50%;
+}
+#bioArticle{
+    color:black;
+    background-color: rgb(235, 126, 3);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    font-family: "Concert One", sans-serif;
+}
+
+#expBody{
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#type{
+    border-radius: 10%;
+}
+#expArticle{
+    color:black;
+    background-color: rgb(235, 126, 3);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    font-family: "Concert One", sans-serif;
+}
+#portArrow{
+    color: rgb(235, 126, 3);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    font-size: 300px;
+}
+
+#portArticle{
+    color:black;
+    background-color: rgb(235, 126, 3);
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 8px;
+    font-family: "Concert One", sans-serif;
+    text-align: center;
+}
