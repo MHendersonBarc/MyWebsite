@@ -3,7 +3,7 @@ const headAndNav = document.querySelector('#headAndNav');
 let missCounter = 0;
 
 function randomMessage(){
-    let randomNum = Math.floor(Math.random() * 5);
+    let randomNum = Math.floor(Math.random() * 6);
     if (randomNum == 0){
         return 'Try Harder!';
     }
@@ -18,6 +18,9 @@ function randomMessage(){
     }
     else if (randomNum == 4){
         return 'I BELIEVE IN YOU';
+    }
+    else if (randomNum == 5){
+        return 'HOW?!';
     }
 }
 
